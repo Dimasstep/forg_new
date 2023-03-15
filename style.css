@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 1440px;
+    height: 3663px;
+    background: #F8FCFF;
+    padding: auto;
+    margin: auto;
+
+}
+
+.content{
+    display: flex;
+    position: relative;
+    border: 1px solid #512020;
+
+}
+
+.header {
+    
+    position: relative;
+    width: 1431px;
+    height: 750px;
+    padding: 5px;
+    margin: 5px;
+    top: -0px;
+    border: 1px solid #512020;
+}
+
+.nav__block {
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    text-align: center;
+    width: 1200px;
+    height: 50px;
+    left: 142px;
+    top: 40px;
+    padding: 5px;
+    margin: 5px;
+    border: 1px solid #512020;
+   
+
+}
+
+.list__block {
+    font-size: 24px;
+    text-decoration: dashed;
+    width: 300px;
+    height: 20px;
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    margin: 5px;
+}
+li, ul {
+    text-decoration: none;
+}
+
+
+.logo {
+    display: flex;
+    position: absolute;
+    width: 83px;
+    height: 15px;
+    left: 604px;
+    padding: 5px;
+    margin: 5px;
+    justify-content: space-between;
+
+}
+
+
+.content__section__two {
+    display: flex;
+    position: relative;
+    font-size: 34px;
+    Width:432px;
+    Height: 160px;
+    Top: 100px;
+    Left: 149px;
+    max-width: 682px;
+}
+
+.title__logo_two {
+    display: flex;
+    position: relative;
+    font-size: 20px;
+    width: 280px;
+    height: 60px;
+    top: 103px;
+   
+}
+
+.buttom__block {
+    display:flex;
+    position: relative;
+    width: 202px;
+    height: 50px;
+    top:133px;
+    
+  
+    
+
+}
+
+.buttom__block > .buttom__icon {
+  
+    position: relative;
+    width: 50px;
+    height: 50px;
+
+}
+
+
+.buttom__block > .buttom__Info {
+   display: flex;
+   position: relative;
+   font-size: 14px;
+   width: 114px;
+   top: 12px;
+
+}
