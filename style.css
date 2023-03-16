@@ -325,12 +325,10 @@ ul {
 }
 
 .testimonial__block {
-
     position: absolute;
     width: 1090px;
     height: 496px;
     left: 175px;
-    top: 73px;
     align-items: center;
     text-align: center;
 
@@ -521,7 +519,7 @@ ul {
     font-size: 18px;
     width: 376px;
     height: 92px;
-    top: 10px;
+    top: 50px;
     align-items:center;
 
 }
