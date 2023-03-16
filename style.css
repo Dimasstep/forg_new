@@ -15,7 +15,7 @@ body {
 .content {
     display: flex;
     position: relative;
-   
+
 
 }
 
@@ -27,7 +27,7 @@ body {
     padding: 5px;
     margin: 5px;
     top: -0px;
-    
+
 }
 
 .nav__block {
@@ -41,7 +41,7 @@ body {
     top: 40px;
     padding: 5px;
     margin: 5px;
-   
+
 
 
 }
@@ -137,7 +137,7 @@ ul {
     height: 422px;
     left: 640px;
     top: 120px;
-    
+
 }
 
 
@@ -150,7 +150,7 @@ ul {
     top: 95px;
     background: linear-gradient(106.01deg, #80D1FF 0%, #44B2F1 69.58%);
     border-radius: 4px;
-    
+
 }
 
 
@@ -168,9 +168,9 @@ ul {
     position: relative;
     width: 228px;
     height: 327px;
-    left: 365px;
+    left: 366px;
     background: linear-gradient(201.5deg, #FFD968 4.52%, #FAC422 102.63%);
-  
+
 
 }
 
@@ -216,7 +216,7 @@ ul {
     width: 233px;
     height: 154px;
     left: 10px;
-  
+
 
 
 }
@@ -242,7 +242,7 @@ ul {
     display: block;
     position: relative;
     max-width: 200px;
-    
+
 }
 
 
@@ -258,7 +258,7 @@ ul {
 
 .frame__line {
     display: flex;
-    position:absolute;
+    position: absolute;
     width: 1440px;
     height: 417px;
     left: 1px;
@@ -267,30 +267,35 @@ ul {
     justify-content: space-between;
     padding: 5px;
     margin: 5px;
-    align-items:center;
+    align-items: center;
 
 }
 
-.frame__one  {
-    display:inline;
+
+.frame__one {
+    display: inline;
     position: absolute;
     width: 261px;
     height: 144px;
     left: 300px;
     top: 169px;
     color: black;
-    
-    
+
+
 }
 
-.frame__one > .text__block__lineone{
+
+.frame__one>.text__block__lineone {
     font-size: 24px;
     font-weight: 700;
     color: black;
     padding: 0px 0px 15px 0px;
 }
 
-.frame__two{
+
+
+
+.frame__two {
     position: absolute;
     width: 264px;
     height: 138px;
@@ -300,7 +305,7 @@ ul {
 
 }
 
-.frame__two > .text__block__linetwo{
+.frame__two>.text__block__linetwo {
     font-size: 24px;
     font-weight: 700;
     color: black;
@@ -308,30 +313,30 @@ ul {
 }
 
 
-.Testimonial{
+.Testimonial {
     position: absolute;
     width: 1440px;
     height: 642px;
     left: 0px;
     top: 1427px;
-    border: 1px solid black;
+
 
 
 }
 
 .testimonial__block {
-    
+
     position: absolute;
     width: 1090px;
     height: 496px;
     left: 175px;
     top: 73px;
-    align-items:center;
+    align-items: center;
     text-align: center;
-   
+
 }
 
-.costumer{
+.costumer {
     position: absolute;
     width: 643px;
     height: 80px;
@@ -351,17 +356,176 @@ ul {
     /* Analyze any Business or Creator account—including your competitors—to find the imagery, visuals, and captions that drive audience engagement. Get social calendars planned faster and spend less time testing content strategies. */
 
 
-position: absolute;
-width: 641px;
-height: 76px;
-left: 315px;
-top: 193px;
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 28px;
-text-align: center;
-color: #767E7E;
+    position: absolute;
+    width: 641px;
+    height: 76px;
+    left: 315px;
+    top: 193px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    text-align: center;
+    color: #767E7E;
 }
 
+
+.group_line {
+    display: flex;
+    position: relative;
+    width: 1090px;
+    height: 209px;
+    top: 300px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    justify-content: center;
+
+}
+
+.groupe__block {
+    position: absolute;
+    width: 995px;
+    height: 71px;
+    left: 230px;
+    top: 430px;
+
+
+}
+
+.groupe__block__one {
+    line-height: 1.5;
+    padding: 80px;
+}
+
+.groupe__block__two {
+    border-left: 1px solid black;
+    line-height: 1.5;
+    padding: 80px;
+}
+
+.groupe__block__three {
+    border-left: 1px solid black;
+    line-height: 1.5;
+    padding: 80px;
+}
+
+.groupe__block__for {
+    border-left: 1px solid black;
+    line-height: 1.5;
+    padding: 80px;
+}
+
+.image_ellips {
+    display: block;
+    position: relative;
+    top: 885px;
+    right: 700px;
+
+
+}
+
+.feature {
+    display: flex;
+    position: absolute;
+    width: 1440px;
+    height: 619px;
+    top: 2118px;
+    
+}
+
+.feature__block {
+    display: flex;
+    position: absolute;
+    width: 1246px;
+    height: 507px;
+    left: 100px;
+    top: 56px;
+  
+}
+
+.feature__content {
+    display: inline;
+    position: relative;
+    width: 450px;
+    height: 470px;
+    left: 775px;
+    top: 10px;
+    max-width: 450px;
+    padding: 5px;
+    margin: 5px;
+}
+
+.feature__text {
+    display: block;
+    position: relative;
+    width: 458px;
+    font-family: 'Bai Jamjuree';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 52px;
+    line-height: 62px;
+    left: 10px;
+    color: #192430;
+    max-width: 450px;
+}
+
+.feature_creat {
+    display: flex;
+    position: relative;
+    width: 400px;
+    height: 50px;
+    top: 10px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    left: 10px;
+    color: #727272;
+    max-width: 450px;
+}
+
+.feature__card {
+    display: flex;
+    position: absolute;
+    width: 568px;
+    height: 506px;
+    left: 174px;
+    background: #CFEDFF;
+   
+
+}
+
+.feature_bg {
+    display: flex;
+    position: absolute;
+    width: 835px;
+    height: 507px;
+    left: 100px;
+}
+
+.bg {
+    display: flex;
+    position: relative;
+    width: 978px;
+    height: 632px;
+    right: 290px;
+
+}
+
+.feature__block__groupe {
+    
+    display: flex;
+    position: relative;
+    font-size: 18px;
+    width: 376px;
+    height: 92px;
+    top: 10px;
+    align-items:center;
+
+}
+
+.groupe__text__One  {
+    align-items:center;
+}
