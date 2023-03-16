@@ -15,7 +15,7 @@ body {
 .content {
     display: flex;
     position: relative;
-    border: 1px solid #512020;
+   
 
 }
 
@@ -27,7 +27,7 @@ body {
     padding: 5px;
     margin: 5px;
     top: -0px;
-    border: 1px solid #512020;
+    
 }
 
 .nav__block {
@@ -41,7 +41,7 @@ body {
     top: 40px;
     padding: 5px;
     margin: 5px;
-    border: 1px solid #512020;
+   
 
 
 }
@@ -137,7 +137,7 @@ ul {
     height: 422px;
     left: 640px;
     top: 120px;
-    border: 1px solid rgb(104, 36, 36);
+    
 }
 
 
@@ -150,7 +150,7 @@ ul {
     top: 95px;
     background: linear-gradient(106.01deg, #80D1FF 0%, #44B2F1 69.58%);
     border-radius: 4px;
-    border: 1px solid rgb(97, 30, 30);
+    
 }
 
 
@@ -170,7 +170,7 @@ ul {
     height: 327px;
     left: 365px;
     background: linear-gradient(201.5deg, #FFD968 4.52%, #FAC422 102.63%);
-    border: 1px solid rgb(97, 30, 30);
+  
 
 }
 
@@ -229,3 +229,139 @@ ul {
     bottom: 140px;
 
 }
+
+.block__lenta__two {
+    display: block;
+    position: relative;
+    max-width: 200px;
+}
+
+
+
+.block__lenta__three {
+    display: block;
+    position: relative;
+    max-width: 200px;
+    
+}
+
+
+.block__lenta__for {
+    display: block;
+    position: relative;
+    max-width: 200px;
+}
+
+.text__line {
+    padding: 5px;
+}
+
+.frame__line {
+    display: flex;
+    position:absolute;
+    width: 1440px;
+    height: 417px;
+    left: 1px;
+    top: 915px;
+    background: #52c0ff4d;
+    justify-content: space-between;
+    padding: 5px;
+    margin: 5px;
+    align-items:center;
+
+}
+
+.frame__one  {
+    display:inline;
+    position: absolute;
+    width: 261px;
+    height: 144px;
+    left: 300px;
+    top: 169px;
+    color: black;
+    
+    
+}
+
+.frame__one > .text__block__lineone{
+    font-size: 24px;
+    font-weight: 700;
+    color: black;
+    padding: 0px 0px 15px 0px;
+}
+
+.frame__two{
+    position: absolute;
+    width: 264px;
+    height: 138px;
+    left: 862px;
+    top: 169px;
+    color: black;
+
+}
+
+.frame__two > .text__block__linetwo{
+    font-size: 24px;
+    font-weight: 700;
+    color: black;
+    padding: 0px 0px 15px 0px;
+}
+
+
+.Testimonial{
+    position: absolute;
+    width: 1440px;
+    height: 642px;
+    left: 0px;
+    top: 1427px;
+    border: 1px solid black;
+
+
+}
+
+.testimonial__block {
+    
+    position: absolute;
+    width: 1090px;
+    height: 496px;
+    left: 175px;
+    top: 73px;
+    align-items:center;
+    text-align: center;
+   
+}
+
+.costumer{
+    position: absolute;
+    width: 643px;
+    height: 80px;
+    left: 318px;
+    top: 73px;
+    font-family: 'Bai Jamjuree';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 80px;
+    text-align: center;
+    letter-spacing: 0.01em;
+    color: #0D1111;
+}
+
+.analyze__block {
+    /* Analyze any Business or Creator account—including your competitors—to find the imagery, visuals, and captions that drive audience engagement. Get social calendars planned faster and spend less time testing content strategies. */
+
+
+position: absolute;
+width: 641px;
+height: 76px;
+left: 315px;
+top: 193px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 28px;
+text-align: center;
+color: #767E7E;
+}
+
