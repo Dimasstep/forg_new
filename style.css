@@ -3,7 +3,7 @@
     padding: 0;
 }
 
-body{
+body {
     width: 1440px;
     height: 3663px;
     background: #F8FCFF;
@@ -12,7 +12,7 @@ body{
 
 }
 
-.content{
+.content {
     display: flex;
     position: relative;
     border: 1px solid #512020;
@@ -20,7 +20,7 @@ body{
 }
 
 .header {
-    
+
     position: relative;
     width: 1431px;
     height: 750px;
@@ -42,12 +42,12 @@ body{
     padding: 5px;
     margin: 5px;
     border: 1px solid #512020;
-   
+
 
 }
 
 .list__block {
-    font-size: 24px;
+    font-size: 16px;
     text-decoration: dashed;
     width: 300px;
     height: 20px;
@@ -56,8 +56,11 @@ body{
     align-items: center;
     padding: 5px;
     margin: 5px;
+    cursor: pointer;
 }
-li, ul {
+
+li,
+ul {
     text-decoration: none;
 }
 
@@ -70,6 +73,7 @@ li, ul {
     left: 604px;
     padding: 5px;
     margin: 5px;
+    top: 12px;
     justify-content: space-between;
 
 }
@@ -79,7 +83,7 @@ li, ul {
     display: flex;
     position: relative;
     font-size: 34px;
-    Width:432px;
+    Width: 432px;
     Height: 160px;
     Top: 100px;
     Left: 149px;
@@ -93,23 +97,23 @@ li, ul {
     width: 280px;
     height: 60px;
     top: 103px;
-   
+
 }
 
 .buttom__block {
-    display:flex;
+    display: flex;
     position: relative;
     width: 202px;
     height: 50px;
-    top:133px;
-    
-  
-    
+    top: 133px;
+    left: -12px;
+
+
 
 }
 
-.buttom__block > .buttom__icon {
-  
+.buttom__block>.buttom__icon {
+
     position: relative;
     width: 50px;
     height: 50px;
@@ -117,11 +121,111 @@ li, ul {
 }
 
 
-.buttom__block > .buttom__Info {
-   display: flex;
-   position: relative;
-   font-size: 14px;
-   width: 114px;
-   top: 12px;
+.buttom__block>.buttom__Info {
+    display: flex;
+    position: relative;
+    font-size: 14px;
+    width: 114px;
+    top: 12px;
+
+}
+
+.header__card {
+    display: block;
+    position: absolute;
+    width: 724px;
+    height: 422px;
+    left: 640px;
+    top: 120px;
+    border: 1px solid rgb(104, 36, 36);
+}
+
+
+
+.section__block__banner {
+
+    position: relative;
+    width: 724px;
+    height: 327px;
+    top: 95px;
+    background: linear-gradient(106.01deg, #80D1FF 0%, #44B2F1 69.58%);
+    border-radius: 4px;
+    border: 1px solid rgb(97, 30, 30);
+}
+
+
+.text-icone {
+
+    position: relative;
+    left: 350px;
+    padding: 15px;
+}
+
+
+
+.logo__icone {
+    display: inline-block;
+    position: relative;
+    width: 228px;
+    height: 327px;
+    left: 365px;
+    background: linear-gradient(201.5deg, #FFD968 4.52%, #FAC422 102.63%);
+    border: 1px solid rgb(97, 30, 30);
+
+}
+
+.visa__card {
+    position: relative;
+    width: 230px;
+    height: 370px;
+    bottom: 420px;
+    right: 80px;
+    transform: rotate(-0deg);
+}
+
+.buttom__icons {
+
+    width: 238px;
+    height: 205px;
+    top: 275px;
+    padding: 25px;
+
+}
+
+.block__informer_lenta {
+    display: flex;
+    position: relative;
+    width: 1204px;
+    height: 165px;
+    left: 140px;
+    top: 358px;
+    justify-content: space-between;
+
+
+
+}
+
+
+.block__lenta__one {
+    display: block;
+    position: relative;
+    font-size: 16px;
+    justify-content: left;
+    background-repeat: no-repeat;
+    max-width: 300px;
+    width: 233px;
+    height: 154px;
+    left: 10px;
+  
+
+
+}
+
+.fire {
+    display: inline-block;
+    position: relative;
+    bottom: 30px;
+    left: 30px;
+    bottom: 140px;
 
 }
