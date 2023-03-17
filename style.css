@@ -6,7 +6,7 @@
 body {
     width: 1440px;
     height: 3663px;
-    background: #F8FCFF;
+    background: #fff;
     padding: auto;
     margin: auto;
 
@@ -15,6 +15,7 @@ body {
 .content {
     display: flex;
     position: relative;
+    background: #fff;
 
 
 }
@@ -114,20 +115,21 @@ ul {
 
 .buttom__block>.buttom__icon {
 
-    position: relative;
-    width: 50px;
-    height: 50px;
+position: relative;
 
+width: 60px;
+
+height: 60px;
 }
 
 
 .buttom__block>.buttom__Info {
     display: flex;
     position: relative;
-    font-size: 14px;
+    font-size: 16px;
     width: 114px;
-    top: 12px;
-
+    top: 15px;
+    font-weight: 600;
 }
 
 .header__card {
@@ -224,9 +226,8 @@ ul {
 .fire {
     display: inline-block;
     position: relative;
-    bottom: 30px;
-    left: 30px;
-    bottom: 140px;
+    left: 21px;
+    bottom: 139px;
 
 }
 
@@ -538,7 +539,9 @@ ul {
     padding: 5px;
     margin: 5px;
     background: #41B3F4;
-    border: 1px solid black;
+    align-items: center;
+
+
 
 }
 
@@ -547,25 +550,193 @@ ul {
     position: relative;
     width: 119.64px;
     height: 79.85px;
-    left: 165.5px;
-    top: 195.08px;
+    left: 125.5px;
+    top: 10px;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
     font-size: 18px;
     line-height: 27px;
     color: #414449;
-    border-right: 3px solid #718176;
+    justify-content: space-between;
 }
+
 .play__text {
     display: block;
     position: relative;
     width: 95.71px;
     height: 94.64px;
-    left: 165.5px;
-    top: 232.53px;
+    left: 125.5px;
+    top: 30px;
+}
+
+.line {
+    position: absolute;
+    width: 5.98px;
+    height: 151.11px;
+    left: 220px;
+    background: #718176;
+}
+
+.newssletter__text__two {
+    position: absolute;
+    width: 428.69px;
+    height: 138.01px;
+    left: 460px;
+    top: 175.51px;
+    font-family: 'Bai Jamjuree';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 70px;
+    letter-spacing: -0.02em;
+    text-transform: capitalize;
+    color: #000000;
+}
+
+.newssletter__text__for {
+    display: flex;
+    position: relative;
+    width: 683.02px;
+    height: 730.88px;
+    top: 30px;
+    left: 663.8px;
+    padding: 5px;
+    margin: 5px;
+
+
 
 }
 
+button {
+    display: flex;
+    position: relative;
+    width: 159.51px;
+    height: 57.18px;
+    left: 49px;
+    top: 20px;
+    align-items: center;
+    justify-content: center;
+    color:#fff;
+    background-color: #E15C19;
+    border: none;
+}
+
+footer {
+    position: absolute;
+    width: 1440px;
+    height: 175px;
+    left: 0px;
+    top: 3485px;
+    
+}
+
+.footer__block {
+    display: flex;
+    position: relative;
+    width: 1081px;
+    height: 117px;
+    left: 165px;
+    top: 29px;
+   
+}
+
+.nuv___footer__one {
+    display: flex;
+    position: absolute;
+    font-size: 16px;
+    text-decoration: dashed;
+    width: 300px;
+    height: 20px;
+    justify-content: space-between;
+    align-items: center;
+    left: 10px;
+    padding: 5px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.logo_footer {
+    display: flex;
+    position: absolute;
+    width: 83px;
+    height: 15px;
+    padding: 5px;
+    margin: 5px;
+    left: 500px;
 
 
+
+}
+
+.nuv__footer__two {
+    display: flex;
+    position: absolute;
+    font-size: 16px;
+    text-decoration: dashed;
+    width: 300px;
+    height: 20px;
+    justify-content: space-between;
+    align-items: center;
+    left: 750px;
+    padding: 5px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.footer__inline {
+    display: flex;
+    position: relative;
+    width: 1181px;
+    height: 14px;
+    top: 85px;
+    padding: 5px;
+    margin: 5px;
+    align-items: flex-start;
+
+}
+
+.copiright {
+    position: absolute;
+    width: 178px;
+    height: 14px;
+    left: 15px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+    color: rgba(27, 27, 27, 0.35);
+
+}
+
+.line__footer_two {
+    display: flex;
+    position: relative;
+    width: 700px;
+    height: 1px;
+    left: 200px;
+    border-top: 1px solid grey;
+    padding: 5px;
+    margin: 5px;
+    align-items:center;
+
+}
+
+.copiright__two {
+    position: absolute;
+    width: 104px;
+    height: 14px;
+    left:930px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    text-align: right;
+    color: #7B827D;
+    align-items: center;
+    justify-content: center;
+
+
+}
