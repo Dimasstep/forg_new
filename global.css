@@ -12,7 +12,7 @@ body {
 
 }
 
-.content {
+.main {
     display: flex;
     position: relative;
     background: #fff;
@@ -115,11 +115,11 @@ ul {
 
 .buttom__block>.buttom__icon {
 
-position: relative;
+    position: relative;
 
-width: 60px;
+    width: 60px;
 
-height: 60px;
+    height: 60px;
 }
 
 
@@ -479,7 +479,6 @@ height: 60px;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
-    line-height: 28px;
     left: 10px;
     color: #727272;
     max-width: 450px;
@@ -517,7 +516,7 @@ height: 60px;
 
     display: flex;
     position: relative;
-    font-size: 18px;
+    font-size: 16px;
     width: 376px;
     height: 92px;
     top: 50px;
@@ -617,7 +616,7 @@ button {
     top: 20px;
     align-items: center;
     justify-content: center;
-    color:#fff;
+    color: #fff;
     background-color: #E15C19;
     border: none;
 }
@@ -628,7 +627,7 @@ footer {
     height: 175px;
     left: 0px;
     top: 3485px;
-    
+
 }
 
 .footer__block {
@@ -638,7 +637,7 @@ footer {
     height: 117px;
     left: 165px;
     top: 29px;
-   
+
 }
 
 .nuv___footer__one {
@@ -720,15 +719,15 @@ footer {
     border-top: 1px solid grey;
     padding: 5px;
     margin: 5px;
-    align-items:center;
-
+    top: 4px;
+    align-items: center;
 }
 
 .copiright__two {
     position: absolute;
     width: 104px;
     height: 14px;
-    left:930px;
+    left: 930px;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
@@ -740,3 +739,12 @@ footer {
 
 
 }
+
+.vectors {
+    display: flex;
+    position: relative;
+    width: 88px;
+    height: 12.02px;
+    justify-content: space-between;
+}
+
