@@ -1,7 +1,8 @@
-// alert('Приветствую, Вы зашли на тестовый сайт');{
-//     prompt('Как Вас зовут?');
-// }
+const popup = document.getElementsByClassName("modal button");
+for(let button of buttons){
+    buttons.addEvenListener('click',openModal);
+}
 
-// document.write('Добро пожаловать на сайт');
-
- const buttons = ducument.getElementsDyClassName('modal-button');
+function openModal(){
+    console.log('open modal');
+}
