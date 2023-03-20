@@ -72,8 +72,7 @@ ul {
     width: 83px;
     height: 15px;
     left: 604px;
-    top: 12px;
-    background-image: url(images/Besnik.png);
+    top: 19px;
     justify-content: space-between;
     border:none;
 
@@ -749,3 +748,34 @@ footer {
     justify-content: space-between;
 }
 
+.modal-container {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+
+
+}
+
+.modal-container.active {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #FFFFFF73;
+}
+
+
+.modal{
+    border-radius: 10px;
+    padding: 20px;
+    width: 500px;
+    height: 400px;
+    max-width: 100%;
+    max-height: 100%;
+    min-width: 100%;
+    min-height: 100%;
+    background: #fff
+
+}
