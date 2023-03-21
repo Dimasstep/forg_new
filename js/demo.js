@@ -19,5 +19,6 @@ if (event.target.id ='modal-container') {
     if (!modalContainer.classList.contains('active')) return;
     modalContainer.classList.remove('active');
 }
+
 }
 
